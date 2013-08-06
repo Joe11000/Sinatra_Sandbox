@@ -1,7 +1,7 @@
 get '/' do
   puts "[LOG] Getting /"
   puts "[LOG] Params: #{params.inspect}"
-  erb :index
+  erb :get_cool_url
 end
 
 get '/cool_url' do
